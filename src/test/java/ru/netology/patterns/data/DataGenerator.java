@@ -13,8 +13,8 @@ public class DataGenerator {
     private DataGenerator() {
     }
 
-    public static String generateDate(int daysInFuturw) {
-        return LocalDate.now().plusDays(daysInFuturw).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+    public static String generateDate(int daysInFuture) {
+        return LocalDate.now().plusDays(daysInFuture).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
 
     public static String generateCity() {
